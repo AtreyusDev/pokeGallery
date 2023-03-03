@@ -1,4 +1,4 @@
-class Title:
+class Title: # Return a String with the __str__ method that contains the welcome text.
     def __init__(self):
         self.title_text = '''
         ¡WELCOME TO POKEMON GALLERY!'''.center(15,'*')
@@ -6,7 +6,7 @@ class Title:
     def __str__(self):
         return self.title_text
 
-class Menu:
+class Menu: # Return a String with the __str__ method that contains the main menu.
     def __init__(self):
         self._version = '1.0.0'
         self.menu_text = f'''

@@ -1,4 +1,4 @@
-class Instructions:
+class Instructions: # Return a String with the __str__ method that contains the instructions.
     def __init__(self) -> None:
         self.instructions_text = '''
     I´m Navile. Your assistant in this app.
